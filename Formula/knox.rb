@@ -5,6 +5,6 @@ class Knox < Formula
 
   def install
     system "make"
-    bin.install "auditpipe", "auditon", "commands"
+    bin.install "auditpipe", "auditon", "commands", "paudit"
   end
 end
